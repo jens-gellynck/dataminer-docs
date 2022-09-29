@@ -196,6 +196,8 @@ As soon as either *MaxFreezeTime* or *MaxFreezeAlarms* is reached, the Alarm Con
 
 The *MustSquashAlarms* tag is available from DataMiner 10.0.12 onwards. Set the value to *true* to enable alarm consolidation by default. In that case, consecutive alarm events without a severity change will be combined into a consolidated event. This may be useful to reduce the load on DataMiner Cube and on the SLNet process.
 
+[This is also referred to as Alarm Squashing]: #
+
 The following types of alarm events will not be combined in a consolidated alarm event:
 
 - Escalated
